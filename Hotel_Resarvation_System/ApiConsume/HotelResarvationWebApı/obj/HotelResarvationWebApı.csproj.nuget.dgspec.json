@@ -1,0 +1,451 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationWebApı\\HotelResarvationWebApı.csproj": {}
+  },
+  "projects": {
+    "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj",
+        "projectName": "HotelProjectEntityLayer",
+        "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj",
+        "packagesPath": "C:\\Users\\DAVUT\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAVUT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationBusinessLayer\\HotelResarvationBusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationBusinessLayer\\HotelResarvationBusinessLayer.csproj",
+        "projectName": "HotelResarvationBusinessLayer",
+        "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationBusinessLayer\\HotelResarvationBusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\DAVUT\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationBusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAVUT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj": {
+                "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj"
+              },
+              "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDataAccessLayer\\HotelResarvationDataAccessLayer.csproj": {
+                "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDataAccessLayer\\HotelResarvationDataAccessLayer.csproj"
+              },
+              "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj": {
+                "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDataAccessLayer\\HotelResarvationDataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDataAccessLayer\\HotelResarvationDataAccessLayer.csproj",
+        "projectName": "HotelResarvationDataAccessLayer",
+        "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDataAccessLayer\\HotelResarvationDataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\DAVUT\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAVUT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj": {
+                "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj",
+        "projectName": "HotelResarvationDtoLayer",
+        "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj",
+        "packagesPath": "C:\\Users\\DAVUT\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAVUT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj": {
+                "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationWebApı\\HotelResarvationWebApı.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationWebApı\\HotelResarvationWebApı.csproj",
+        "projectName": "HotelResarvationWebApı",
+        "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationWebApı\\HotelResarvationWebApı.csproj",
+        "packagesPath": "C:\\Users\\DAVUT\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationWebApı\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DAVUT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj": {
+                "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj"
+              },
+              "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationBusinessLayer\\HotelResarvationBusinessLayer.csproj": {
+                "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationBusinessLayer\\HotelResarvationBusinessLayer.csproj"
+              },
+              "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDataAccessLayer\\HotelResarvationDataAccessLayer.csproj": {
+                "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDataAccessLayer\\HotelResarvationDataAccessLayer.csproj"
+              },
+              "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj": {
+                "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
