@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace HotelResarvationBusinessLayer.Concrate
 {
-    public class TestimonialManager : ITestimoniolService
+    public class TestimonialManager : ITestimonialService
     {
         ITestimonialDal _testimonialDal;
         public TestimonialManager(ITestimonialDal testimonialdal)

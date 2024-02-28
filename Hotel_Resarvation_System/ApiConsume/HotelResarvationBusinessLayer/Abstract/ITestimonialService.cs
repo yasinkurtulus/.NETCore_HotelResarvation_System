@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HotelResarvationBusinessLayer.Abstract
 {
-    public interface ITestimoniolService:IGenericService<Testimonial>
+    public interface ITestimonialService:IGenericService<Testimonial>
     {
     }
 }

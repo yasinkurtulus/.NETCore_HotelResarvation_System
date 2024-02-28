@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HotelResarvationBusinessLayer.Abstract
 {
-    internal interface ISubsrcibeService:IGenericService<Subscribe>
+    public interface ISubscribeService:IGenericService<Subscribe>
     {
     }
 }

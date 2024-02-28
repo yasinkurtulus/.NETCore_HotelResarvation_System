@@ -1,5 +1,6 @@
 ﻿using HotelProjectEntityLayer.Concrate;
 using HotelResarvationBusinessLayer.Abstract;
+using HotelResarvationDataAccessLayer.Abstract;
 using HotelResarvationDataAccessLayer.EntityFramework;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace HotelResarvationBusinessLayer.Concrate
 {
-    public class SubscribeManager : ISubsrcibeService
+    public class SubscribeManager : ISubscribeService
     {
         ISubscribeDal _subscribeDal;
         public SubscribeManager(ISubscribeDal subscribeDal)
