@@ -4111,11 +4111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj",
+      "projectUniqueName": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj",
       "projectName": "HotelResarvationDtoLayer",
-      "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj",
+      "projectPath": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj",
       "packagesPath": "C:\\Users\\DAVUT\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\obj\\",
+      "outputPath": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4136,8 +4136,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj": {
-              "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj"
+            "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj": {
+              "projectPath": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj"
             }
           }
         }

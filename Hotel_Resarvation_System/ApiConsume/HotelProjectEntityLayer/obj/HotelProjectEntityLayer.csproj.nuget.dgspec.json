@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj": {}
+    "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj": {}
   },
   "projects": {
-    "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj": {
+    "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj",
+        "projectUniqueName": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj",
         "projectName": "HotelProjectEntityLayer",
-        "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj",
+        "projectPath": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj",
         "packagesPath": "C:\\Users\\DAVUT\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\obj\\",
+        "outputPath": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

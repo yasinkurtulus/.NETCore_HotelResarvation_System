@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\Frontend\\HotelResarvationWebUI\\HotelResarvationWebUI.csproj": {}
+    "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\Frontend\\HotelResarvationWebUI\\HotelResarvationWebUI.csproj": {}
   },
   "projects": {
-    "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\Frontend\\HotelResarvationWebUI\\HotelResarvationWebUI.csproj": {
+    "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\Frontend\\HotelResarvationWebUI\\HotelResarvationWebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\Frontend\\HotelResarvationWebUI\\HotelResarvationWebUI.csproj",
+        "projectUniqueName": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\Frontend\\HotelResarvationWebUI\\HotelResarvationWebUI.csproj",
         "projectName": "HotelResarvationWebUI",
-        "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\Frontend\\HotelResarvationWebUI\\HotelResarvationWebUI.csproj",
+        "projectPath": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\Frontend\\HotelResarvationWebUI\\HotelResarvationWebUI.csproj",
         "packagesPath": "C:\\Users\\DAVUT\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\Frontend\\HotelResarvationWebUI\\obj\\",
+        "outputPath": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\Frontend\\HotelResarvationWebUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

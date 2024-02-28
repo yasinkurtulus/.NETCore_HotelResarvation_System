@@ -4153,11 +4153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationBusinessLayer\\HotelResarvationBusinessLayer.csproj",
+      "projectUniqueName": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationBusinessLayer\\HotelResarvationBusinessLayer.csproj",
       "projectName": "HotelResarvationBusinessLayer",
-      "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationBusinessLayer\\HotelResarvationBusinessLayer.csproj",
+      "projectPath": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationBusinessLayer\\HotelResarvationBusinessLayer.csproj",
       "packagesPath": "C:\\Users\\DAVUT\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationBusinessLayer\\obj\\",
+      "outputPath": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationBusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4178,14 +4178,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj": {
-              "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj"
+            "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj": {
+              "projectPath": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelProjectEntityLayer\\HotelProjectEntityLayer.csproj"
             },
-            "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDataAccessLayer\\HotelResarvationDataAccessLayer.csproj": {
-              "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDataAccessLayer\\HotelResarvationDataAccessLayer.csproj"
+            "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDataAccessLayer\\HotelResarvationDataAccessLayer.csproj": {
+              "projectPath": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDataAccessLayer\\HotelResarvationDataAccessLayer.csproj"
             },
-            "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj": {
-              "projectPath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj"
+            "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj": {
+              "projectPath": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj"
             }
           }
         }

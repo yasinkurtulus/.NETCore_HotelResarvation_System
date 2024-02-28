@@ -37,7 +37,7 @@ namespace HotelResarvationDataAccessLayer.Repositories
             _context.SaveChanges();
         }
 
-        public void Updtae(T entity)
+        public void Update(T entity)
         {
             _context.Update(entity);
             _context.SaveChanges();

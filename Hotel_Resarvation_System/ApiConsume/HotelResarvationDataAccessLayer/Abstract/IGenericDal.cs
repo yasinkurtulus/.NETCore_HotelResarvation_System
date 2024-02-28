@@ -10,7 +10,7 @@ namespace HotelResarvationDataAccessLayer.Abstract
     {
         void Insert(T entity);
         void Delete(T entity);
-        void Updtae(T entity);
+        void Update(T entity);
         List<T> GetAll();
         T GetById(int id);
     }

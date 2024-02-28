@@ -10,9 +10,9 @@ using HotelResarvationDataAccessLayer.Repositories;
 
 namespace HotelResarvationDataAccessLayer.EntityFramework
 {
-    public class EfSubscribeDal:GenericRepository<Subscribe>,ISubscribeDal
+    public class ISubscribeDal:GenericRepository<Subscribe>, Abstract.ISubscribeDal
     {
-        public EfSubscribeDal(Context context):base(context)
+        public ISubscribeDal(Context context):base(context)
         {
             
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oEqacgzVdSV0+jyIQbzx/e95ZlP7XbAz3qIcU1HmX9eJtGnR/dnzjmfR8vQDjQZu1lUIlxC4nyxqE1NsfydM+w==",
+  "dgSpecHash": "H26YNhVcCuW48RH8FpUlNq5c2hyTA+dOUpWA26lxO9dgh7bQ9JrcQA5Cz50te/69NZWjhovIWLGrHg8HIXEywQ==",
   "success": true,
-  "projectFilePath": "D:\\Github\\Student_Operations_Project\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj",
+  "projectFilePath": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\ApiConsume\\HotelResarvationDtoLayer\\HotelResarvationDtoLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DAVUT\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\DAVUT\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
