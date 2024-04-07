@@ -13,18 +13,18 @@ namespace HotelResarvationWebUI.Controllers
         IStaffService _staffservice;
         public StaffController(IStaffService staffservice)
         {
-            _staffservice= staffservice;
+            _staffservice = staffservice;
         }
         [HttpGet]
         public IActionResult StaffList()
         {
-            var result =_staffservice.TGetAll();
+            var result = _staffservice.TGetAll();
             return Ok(result);
         }
         [HttpPost]
         public IActionResult AddStaff(Staff staff)
         {
-           _staffservice.TInsert(staff);
+            _staffservice.TInsert(staff);
             return Ok();
         }
         [HttpPut]
@@ -33,7 +33,7 @@ namespace HotelResarvationWebUI.Controllers
             _staffservice.TUpdate(staff);
             return Ok();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteStaff(int id)
         {
             var result=_staffservice.TGetById(id);

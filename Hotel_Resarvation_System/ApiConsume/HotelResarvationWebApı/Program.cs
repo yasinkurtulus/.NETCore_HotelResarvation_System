@@ -28,6 +28,17 @@ builder.Services.AddScoped<ISubscribeDal, EfSubscribeDal>();
 
 builder.Services.AddScoped<IRoomService, RoomManager>();
 builder.Services.AddScoped<IRoomDal, EfRoomDal>();
+builder.Services.AddScoped<ITestimonialService, TestimonialManager>();
+builder.Services.AddScoped<ITestimonialDal, EfTestimonialDal>();
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("OtelApiCors", opts =>
+    {
+        opts.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+    });
+});
+
+
 
 builder.Services.AddDbContext<Context>();
 
@@ -41,8 +52,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("OtelApiCors");
 
 app.UseAuthorization();
+
 
 app.MapControllers();
 

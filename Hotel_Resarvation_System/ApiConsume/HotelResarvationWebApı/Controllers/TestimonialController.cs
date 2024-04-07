@@ -32,7 +32,7 @@ namespace HotelResarvationWebApı.Controllers
             _testimonialservice.TUpdate(testimonial);
             return Ok();
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteTestimonial(int id)
         {
             var result = _testimonialservice.TGetById(id);
