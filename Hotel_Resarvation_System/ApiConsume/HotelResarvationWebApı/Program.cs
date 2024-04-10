@@ -3,6 +3,7 @@ using HotelResarvationBusinessLayer.Concrate;
 using HotelResarvationDataAccessLayer.Abstract;
 using HotelResarvationDataAccessLayer.Concrate;
 using HotelResarvationDataAccessLayer.EntityFramework;
+using HotelResarvationWebApý.Mapping;
 using ISubscribeDal = HotelResarvationDataAccessLayer.Abstract.ISubscribeDal;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -30,6 +31,8 @@ builder.Services.AddScoped<IRoomService, RoomManager>();
 builder.Services.AddScoped<IRoomDal, EfRoomDal>();
 builder.Services.AddScoped<ITestimonialService, TestimonialManager>();
 builder.Services.AddScoped<ITestimonialDal, EfTestimonialDal>();
+
+builder.Services.ConfigureAutoMappers();
 builder.Services.AddCors(opt =>
 {
     opt.AddPolicy("OtelApiCors", opts =>
