@@ -288,3 +288,4 @@ D:\Github\NetCoreAPI_HotelResarvation\Hotel_Resarvation_System\ApiConsume\HotelR
 D:\Github\NetCoreAPI_HotelResarvation\Hotel_Resarvation_System\ApiConsume\HotelResarvationWebApı\obj\Debug\net8.0\HotelResarvationWebApı.csproj.CopyComplete
 D:\Github\NetCoreAPI_HotelResarvation\Hotel_Resarvation_System\ApiConsume\HotelResarvationWebApı\obj\Debug\net8.0\HotelResarvationWebApı.genruntimeconfig.cache
 D:\Github\NetCoreAPI_HotelResarvation\Hotel_Resarvation_System\ApiConsume\HotelResarvationWebApı\obj\Debug\net8.0\ref\HotelResarvationWebApı.dll
+D:\Github\NetCoreAPI_HotelResarvation\Hotel_Resarvation_System\ApiConsume\HotelResarvationWebApı\bin\Debug\net8.0\AutoMapper.dll

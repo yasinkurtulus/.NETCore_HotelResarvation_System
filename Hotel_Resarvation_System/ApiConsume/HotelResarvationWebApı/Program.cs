@@ -32,7 +32,7 @@ builder.Services.AddScoped<IRoomDal, EfRoomDal>();
 builder.Services.AddScoped<ITestimonialService, TestimonialManager>();
 builder.Services.AddScoped<ITestimonialDal, EfTestimonialDal>();
 
-builder.Services.ConfigureAutoMappers();
+builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 builder.Services.AddCors(opt =>
 {
     opt.AddPolicy("OtelApiCors", opts =>

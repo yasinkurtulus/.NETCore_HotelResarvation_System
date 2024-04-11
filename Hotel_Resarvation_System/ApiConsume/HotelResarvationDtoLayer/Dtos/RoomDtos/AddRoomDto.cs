@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +11,7 @@ namespace HotelResarvationDtoLayer.Dtos.RoomDtos
     public class AddRoomDto
     {
         public string RoomCoverImage { get; set; }
+
         [Required(ErrorMessage ="Please enter price information")]
         public int Price { get; set; }
         [Required(ErrorMessage = "Please enter title")]

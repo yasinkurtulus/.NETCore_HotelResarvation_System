@@ -28,7 +28,7 @@ namespace HotelResarvationWebUI.Controllers
         }
         [HttpPut]
         public IActionResult UpdateRoom(Room room)
-        {
+        {          
             _roomservice.TUpdate(room);
             return Ok();
         }
