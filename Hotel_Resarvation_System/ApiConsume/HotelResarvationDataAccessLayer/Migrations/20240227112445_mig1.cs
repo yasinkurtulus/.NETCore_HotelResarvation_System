@@ -16,7 +16,7 @@ namespace HotelResarvationDataAccessLayer.Migrations
                 {
                     RoomId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    RoomCoverImage = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    RoomCoverImage = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Price = table.Column<int>(type: "int", nullable: false),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     BedCount = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -65,7 +65,7 @@ namespace HotelResarvationDataAccessLayer.Migrations
                 name: "Subscribes",
                 columns: table => new
                 {
-                    SubscribeId = table.Column<int>(type: "int", nullable: false)
+                    SubscribeId = table.Column<int>(type: "int", nullable: true)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Mail = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },

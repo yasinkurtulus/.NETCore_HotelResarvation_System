@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LfwLOKMoJta+r/pU88L61XZP55K2C2XrKsdbu4pJpPhriRI7D3d5bGeH8ftnZxl2i4lx1YMI7PcV3+eXr7M0CA==",
+  "dgSpecHash": "3qlR9c1UCq8ISjOZqHZHGmAkoDJWZhz9oJzMY8upEooGgDV2/zjfHYQ50isrBMyrNU8rcJW/nrsmv9qYrBr5+w==",
   "success": true,
   "projectFilePath": "D:\\Github\\NetCoreAPI_HotelResarvation\\Hotel_Resarvation_System\\Frontend\\HotelResarvationWebUI\\HotelResarvationWebUI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DAVUT\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\DAVUT\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\DAVUT\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\DAVUT\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
